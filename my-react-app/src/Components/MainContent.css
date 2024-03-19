@@ -1,0 +1,63 @@
+.main-content {
+    background-image: url('https://img.freepik.com/free-photo/authentic-book-club-scene_23-2150104556.jpg?size=626&ext=jpg')	;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    height: 100vh;
+  }
+  
+  .contents {
+    margin-right: auto; 
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 60px;
+  }
+  
+  .contents h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+
+ 
+        max-width: 270px;
+  }
+  
+  .contents p {
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .nav-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: darkred;
+  }
+  
+ 
+  @media only screen and (max-width: 768px) {
+    .main-content {
+      padding: 30px;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+  
+    .contents {
+      max-width: 100%;
+      margin: auto;
+    }
+  }
+  
